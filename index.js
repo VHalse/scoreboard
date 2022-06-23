@@ -36,6 +36,8 @@ function add_three()
 
 function newGame()
 {
-    home.innerHTML = 0
-    guest.innerHTML = 0    
+    counth = 0
+    countg = 0 
+    home.innerHTML = counth
+    guest.innerHTML = countg    
 }
