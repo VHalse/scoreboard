@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    text-align: center;
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/ball-and-basketball-court-matt-brown.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+.heading{
+    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background:#5885AF;
+    width: 500px;
+    color: white;
+    border-radius: 10px;
+}
+.score{
+    background: black;
+    color: firebrick;
+    text-align: center;
+    font-size: 50px;
+    height: 90px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px white solid;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    background: lightblue;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: firebrick;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ng{
+    background: green;
+    color: orange;
+    margin-top: 20px;
+}

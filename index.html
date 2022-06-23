@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Score Card</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <H1 class="heading"> Score Card</H1>
+        <div class="main">
+            <div> 
+                <h3>HOME</h3>
+                <p class ="score" id="hscore">0</p>
+                <button onclick="addone()">+1</button>
+                <button onclick="addtwo()">+2</button>
+                <button onclick="addthree()">+3</button><br><br>
+             </div>
+            <div> 
+                <h3>GUEST</h3>
+                <p class ="score" id="gscore">0</p>
+                <button onclick="add_one()">+1</button>
+                <button onclick="add_two()">+2</button>
+                <button onclick="add_three()">+3</button>
+            </div>
+        </div>
+        <button onclick="newGame()" id ="ng">New Game</button>
+
+    </body>
+    <script src="index.js"></script>
+</html>
